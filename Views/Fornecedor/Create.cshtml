@@ -1,0 +1,77 @@
+@model CRUD.Models.Fornecedor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+
+    <!-- Icons font CSS-->
+    <link href="~/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="~/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="~/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="~/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="~/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+    <div class="wrapper wrapper--w680">
+        <div class="card card-4">
+            <div class="card-body">
+                <h2 class="title">Cadastrar novo</h2>
+                <form asp-action="Create">
+                    <div class="row row-space">                 
+                        <div class="col-2">
+                            <label asp-for="Nome" class="control-label"></label>
+                            <input asp-for="Nome" class="form-control" />
+                            <span asp-validation-for="Nome" class="text-danger"></span>
+                        </div>
+                        <div class="col-2">
+                            <label asp-for="Cnpj" class="control-label"></label>
+                            <input asp-for="Cnpj" class="form-control" />
+                            <span asp-validation-for="Cnpj" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="rs-select2 js-select-simple select--no-search">
+                            <label asp-for="Especialidade" class="control-label"></label>
+                            <select asp-for="Especialidade" class="form-control"
+                                asp-items="Html.GetEnumSelectList<Especialidade>()"></select>
+                            <span asp-validation-for="Especialidade" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="p-t-15">
+                        <div class="form-group">
+                            <input type="submit" value="Cadastrar" class="btn btn--radius-2 btn--blue" />
+                            <a asp-action="Index" class="btn btn-danger">Voltar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Jquery JS-->
+<script src="~/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="~/select2/select2.min.js"></script>
+<script src="~/datepicker/moment.min.js"></script>
+<script src="~/datepicker/daterangepicker.js"></script>
+
+<!-- Main JS-->
+<script src="~/js/main.js"></script>
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
