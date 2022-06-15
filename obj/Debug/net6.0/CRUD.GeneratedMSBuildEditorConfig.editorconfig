@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUD
 build_property.RootNamespace = CRUD
-build_property.ProjectDir = C:\Users\gabri\OneDrive\Desktop\CRUD\CRUD\
+build_property.ProjectDir = c:\Users\gabri\OneDrive\Desktop\CRUD\CRUD\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gabri\OneDrive\Desktop\CRUD\CRUD
+build_property.MSBuildProjectDirectory = c:\Users\gabri\OneDrive\Desktop\CRUD\CRUD
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Create.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Delete.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Details.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Edit.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Index.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Fornecedor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Home/Index.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Home/Privacy.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Shared/Error.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Shared/_Layout.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/_ViewImports.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/_ViewStart.cshtml]
+[c:/Users/gabri/OneDrive/Desktop/CRUD/CRUD/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
