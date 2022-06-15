@@ -22,6 +22,8 @@
 
     <!-- Main CSS-->
     <link href="~/css/main.css" rel="stylesheet" media="all">
+    <link href="~/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
 </head>
 
 
@@ -29,32 +31,40 @@
     <div class="wrapper wrapper--w680">
         <div class="card card-4">
             <div class="card-body">
+                <h2 class="title text-center">Deletar</h2>
+                <hr class="my-2" />
                 <div>
-                    <hr />
                     <dl class="row row-space">
-                        <dt class="col">
-                            @Html.DisplayNameFor(model => model.Nome)
-                        </dt>
-                        <dd class="col">
-                            @Html.DisplayFor(model => model.Nome)
-                        </dd>
-                        <dt class="col">
-                            @Html.DisplayNameFor(model => model.Cnpj)
-                        </dt>
-                        <dd class="col-sm">
-                            @Html.DisplayFor(model => model.Cnpj)
-                        </dd>
-                        <dt class="col-sm">
-                            @Html.DisplayNameFor(model => model.Especialidade)
-                        </dt>
-                        <dd class="col-sm">
-                            @Html.DisplayFor(model => model.Especialidade)
-                        </dd>
+                        <div class="col-6">
+                            <dt class="col">
+                                    @Html.DisplayNameFor(model => model.Nome)
+                            </dt>
+                            <dd class="col">
+                                @Html.DisplayFor(model => model.Nome)
+                            </dd>
+                        </div>
+                            <div class="col-6">
+                                <dt class="col">
+                                    @Html.DisplayNameFor(model => model.Cnpj)
+                                </dt>
+                                <dd class="col-sm">
+                                    @Html.DisplayFor(model => model.Cnpj)
+                                </dd>
+                            </div>
+                        <div class="col-12 mt-2">
+                            <dt class="col-sm">
+
+                                @Html.DisplayNameFor(model => model.Especialidade)
+                            </dt>
+                            <dd class="col-sm">
+                                @Html.DisplayFor(model => model.Especialidade)
+                            </dd>
+                        </div>
                     </dl>
                 </div>
-                <form asp-action="Delete">
+                <form asp-action="Delete" class="mt-4 d-flex justify-content-between">
                     <input type="hidden" asp-for="Id" />
-                    <input type="submit" value="Delete" class="btn btn-danger" /> |
+                    <button type="submit" value="Delete" class="btn btn-danger">Deletar</button>
                     <a asp-action="Index" class="btn btn--radius-2 btn--blue">Voltar</a>
                 </form>
             </div>

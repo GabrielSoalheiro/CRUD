@@ -23,6 +23,8 @@
 
     <!-- Main CSS-->
     <link href="~/css/main.css" rel="stylesheet" media="all">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="all">
+
 </head>
 
 <body>
@@ -30,10 +32,10 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h1>Fornecedores</h1>
+                    <h1 class="text-center">Fornecedores</h1>
 
-                    <p>
-                        <a asp-action="Create">Cadastrar Novo</a>
+                    <p class="text-end">
+                        <a asp-action="Create" class="text-decoration-none text-success">+Cadastrar</a>
                     </p>
                     <table class="table">
                         <thead>

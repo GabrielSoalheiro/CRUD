@@ -22,39 +22,51 @@
 
     <!-- Main CSS-->
     <link href="~/css/main.css" rel="stylesheet" media="all">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="all">
+
 </head>
 
 <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
     <div class="wrapper wrapper--w680">
         <div class="card card-4">
             <div class="card-body">
-                <h2 class="title">Detalhes</h2>
+                <h2 class="title text-center mb-0">Detalhes</h2>
+                <hr />
                 <div class="row row-space">
                     <div>
-                        <hr />
                         <dl class="row row-space">
-                            <dt class="col">
-                                @Html.DisplayNameFor(model => model.Nome)
-                            </dt>
-                            <dd class="col">
-                                @Html.DisplayFor(model => model.Nome)
-                            </dd>
-                            <dt class="col">
-                                @Html.DisplayNameFor(model => model.Cnpj)
-                            </dt>
-                            <dd class="col-sm">
-                                @Html.DisplayFor(model => model.Cnpj)
-                            </dd>
-                            <dt class="col-sm">
-                                @Html.DisplayNameFor(model => model.Especialidade)
-                            </dt>
-                            <dd class="col-sm">
-                                @Html.DisplayFor(model => model.Especialidade)
-                            </dd>
+                            <div class="col-6">
+                                <dt class="col">
+                                    @Html.DisplayNameFor(model => model.Nome)
+                                </dt>
+                                <dd class="col">
+                                    @Html.DisplayFor(model => model.Nome)
+                                </dd>
+                            </div>
+                            <div class="col-6">
+                                <dt class="col">
+                                    @Html.DisplayNameFor(model => model.Cnpj)
+                                </dt>
+                                <dd class="col-sm">
+                                    @Html.DisplayFor(model => model.Cnpj)
+                                </dd>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <dt class="col-sm">
+
+                                    @Html.DisplayNameFor(model => model.Especialidade)
+                                </dt>
+                                <dd class="col-sm">
+                                    @Html.DisplayFor(model => model.Especialidade)
+                                </dd>
+                            </div>
+
+
+
                         </dl>
                     </div>
-                    <div>
-                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn--radius-2 btn--blue">Editar</a> |
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn--radius-2 btn-primary">Editar</a>
                         <a asp-action="Index" class="btn btn-danger">Voltar</a>
                     </div>
                 </div>
